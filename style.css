@@ -1,0 +1,45 @@
+.signin {
+  border: 1px solid grey;
+  margin: 200px 350px;
+}
+.signin h2 {
+  margin: 48px 30px 24px;
+}
+.signin .form-group {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.signin .form-group label {
+  margin-bottom: 8px;
+}
+.signin .form-group button {
+  width: 100%;
+  margin-top: 12px;
+  background-color: #3498DB;
+  padding: 8px 0px;
+}
+.signin .create-new-account {
+  text-align: center;
+  margin-top: 12px;
+}
+.signin .create-new-account p {
+  margin-bottom: 0px;
+}
+.signin .learn-more {
+  text-align: center;
+  margin-top: 32px;
+}
+.signin .learn-more p {
+  margin-bottom: 12px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

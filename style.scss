@@ -1,0 +1,110 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@media (min-width: 1281px) {
+	.form {
+		margin: 200px 350px;
+	}
+}
+
+.form {
+	border: 2px solid #0696d7;
+	.validation-error {
+		border-right: 1px solid #ced4da;
+		border-left: 1px solid #ced4da;
+		border-bottom: 1px solid #ced4da;
+		height: calc(1.5em + .75rem + 2px);
+		padding: .375rem .75rem;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #495057;
+		background-color: #dcdcdc;
+		background-clip: padding-box;
+		/* border: 1px solid #ced4da; */
+		border-radius: 4px;
+		transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	}
+	.fname-error,
+	.lname-error {
+		height: 55px;
+	}
+	.welcome-user-txt {
+		text-align: center;
+		span.glyphicon {
+			float: left;
+			color: #0696d7;
+			cursor: pointer;
+		}
+		.user-name {
+			font-size: 14px;
+			line-height: 20px;
+			color: #808080;
+		}
+	}
+	h2 {
+		margin: 48px 30px 24px;
+		font-size: 22px;
+		line-height: 28px;
+		color: #000000;
+	}
+	.form-group {
+		margin-right: 30px;
+		margin-left: 30px;
+		margin-bottom: 0px;
+		label,
+		input {
+			font-size: 16px;
+			line-height: 22px;
+			color: #3c3c3c;
+		}
+		label {
+			margin-bottom: 8px;
+		}
+		button {
+			font-size: 16px;
+			line-height: 22px;
+			color: #ffffff;
+			width: 100%;
+			margin-top: 12px;
+			background-color: #0696d7;
+			padding: 8px 0px;
+		}
+	}
+	.create-new-account {
+		text-align: center;
+		margin-top: 12px;
+		p {
+			font-size: 14px;
+			line-height: 20px;
+			color: #808080;
+			margin-bottom: 0px;
+			a {
+				color: #006eaf;
+				hover: underline;
+			}
+		}
+	}
+	.learn-more {
+		text-align: center;
+		margin-top: 32px;
+		p {
+			font-size: 14px;
+			line-height: 20px;
+			color: #999999;
+			margin-bottom: 12px;
+		}
+	}
+}
+
+.signup {
+	.form-group:not(:first-child) {
+		margin-top: 16px;
+	}
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
